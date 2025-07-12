@@ -1,7 +1,4 @@
 # poker-code-3.0
-git remote add origin <Yesvex1>
-git branch -M main # Renames your default branch to 'main' (optional, but good practice)
-git push -u origin main
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, onAuthStateChanged, signInWithCustomToken } from 'firebase/auth';
